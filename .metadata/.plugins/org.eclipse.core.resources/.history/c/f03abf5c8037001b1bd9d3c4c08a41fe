@@ -1,0 +1,23 @@
+package exceptionHandling;
+
+public class UncaughtException {
+
+	public static void main(String[] args) {
+		
+		
+		try {
+			System.out.println(8/0);
+			System.out.println("A");
+			
+			System.out.println("inside try");
+			
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.getMessage();
+		}
+	
+		System.out.println("B");
+
+	}
+
+}

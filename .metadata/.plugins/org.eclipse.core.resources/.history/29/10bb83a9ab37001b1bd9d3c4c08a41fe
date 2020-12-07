@@ -1,0 +1,4 @@
+#Globalvariables
+Browsertype=chrome
+username=admin
+TestEnvi=java

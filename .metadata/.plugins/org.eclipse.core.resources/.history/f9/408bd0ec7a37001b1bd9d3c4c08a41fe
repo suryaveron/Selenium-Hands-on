@@ -1,0 +1,28 @@
+package interfaceExample;
+
+public class ICICIBank implements RBI {
+
+	@Override
+	public void MinBalanceForSaving() {
+		System.out.println("5000");
+		
+	}
+
+	@Override
+	public void MinBalanceForCurrent() {
+		System.out.println("10000");
+		
+	}
+
+	@Override
+	public void ROIForSaving() {
+		System.out.println("7%");
+		
+	}
+	
+	public void internationalBanking()
+	{
+		System.out.println("special feature in icici bank");
+	}
+
+}

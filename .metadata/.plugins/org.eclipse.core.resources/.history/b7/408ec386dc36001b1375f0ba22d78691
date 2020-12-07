@@ -1,0 +1,17 @@
+package staticExample;
+
+public class TestForStatic {
+
+	String m;
+	int i;
+	static int w;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Wheels: "+w);
+		System.out.println("model: "+m);
+		
+
+	}
+
+}

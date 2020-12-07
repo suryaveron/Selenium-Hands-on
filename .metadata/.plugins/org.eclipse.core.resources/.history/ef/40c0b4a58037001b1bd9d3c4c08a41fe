@@ -1,0 +1,13 @@
+package exceptionHandling;
+
+public class UncaughtException {
+
+	public static void main(String[] args) {
+		
+		try{
+			System.out.println(8/0);
+		}
+	
+	}
+
+}
